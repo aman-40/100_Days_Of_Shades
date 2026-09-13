@@ -8,7 +8,7 @@ const moveZero = (arr) =>{
             slow++
         }
     }
-
+    // arr.length = slow
     while(slow < arr.length){
         arr[slow] = 0
         slow++

@@ -1,15 +1,20 @@
-const keepEven = (arr) =>{
+// const keepEven = (arr) =>{
 
-    let slow = 0
-    for (let fast = 0 ; fast < arr.length ; fast++){
-        if(arr[fast]%2===0){
-            arr[slow] = arr[fast]
-            slow++
-        }
-    }
+//     let slow = 0
+//     for (let fast = 0 ; fast < arr.length ; fast++){
+//         if(arr[fast]%2===0){
+//             arr[slow] = arr[fast]
+//             slow++
+//         }
+//     }
 
-    arr.length = slow
-    return arr
-}
+//     arr.length = slow
+//     return arr
+// }
 
-console.log(keepEven([1, 2, 3, 4, 5, 6, 7, 8]))
+// console.log(keepEven([1, 2, 3, 4, 5, 6, 7, 8]))
+
+let arr = [3]
+arr.push(1)
+arr.pop()
+console.log(arr)
