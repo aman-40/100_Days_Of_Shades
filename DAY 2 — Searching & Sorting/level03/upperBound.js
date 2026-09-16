@@ -12,4 +12,4 @@ const upperBound = (arr , target) =>{
     return left
 }
 
-console.log(upperBound([1, 2, 2, 2, 4, 5] ,5))
+console.log(upperBound([1, 2, 2, 2, 4, 5] ,3))
